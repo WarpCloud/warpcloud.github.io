@@ -69,7 +69,7 @@ theme: hiero
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:WarpCloud/warpcloud.github.io.git
+  repo: git@github.com:WarpCloud/warpcloud.github.com.git
   branch: master
   message: "Update ${COMMIT_SHA}"
 
