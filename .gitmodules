@@ -1,0 +1,3 @@
+[submodule "themes/phantom"]
+	path = themes/phantom
+	url = https://github.com/klugjo/hexo-theme-phantom.git
