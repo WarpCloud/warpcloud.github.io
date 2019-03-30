@@ -1,13 +1,13 @@
 {
   "name": "hexo-site",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.8.0"
   },
   "scripts": {
-    "start": "hexo server --drafts",
-    "generate": "cp themes/phantom_config.yml themes/phantom/_config.yml && hexo generate",
+    "server": "hexo server --drafts",
+    "generate": "cp themes/_config.yml themes/landscape/_config.yml && hexo generate",
     "deploy": "hexo deploy"
   },
   "dependencies": {

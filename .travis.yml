@@ -8,7 +8,6 @@ before_install:
   - npm install
 before_script:
   - export COMMIT_SHA=`git rev-parse --verify HEAD`
-  - cp themes/phantom_config.yml themes/phantom/_config.yml
   - git config --global user.name 'transwarp'
   - git config --global user.email 'transwarp-community@transwarp.io'
 install:
