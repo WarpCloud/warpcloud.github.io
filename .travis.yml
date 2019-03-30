@@ -17,4 +17,4 @@ script:
   - bash deploy/deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: ec11043d1833
+  - ENCRYPTION_LABEL: b81217a95475
